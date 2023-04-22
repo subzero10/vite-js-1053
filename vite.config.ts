@@ -4,8 +4,8 @@ import honeybadgerRollupPlugin from '@honeybadger-io/rollup-plugin'
 
 // See plugin params above
 const hbPluginOptions = {
-  apiKey: '80ee8156',
-  assetsUrl: 'https://yoursite.foo',
+  apiKey: process.env.HONEYBADGER_API_KEY,
+  assetsUrl: 'https://vite-js-1053.herokuapp.com',
   revision: '0.0.1'
 }
 
